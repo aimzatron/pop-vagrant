@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pop Vagrant</title>
+  <h1> Pop Vagrant </h1>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+    <div id="navbar"> 
+      <ul> 
+        <li><a href="#">Pretty City</a></li> 
+        <li><a href="#">Static/Flicker</a></li> 
+        <li><a href="#">NerdBox</a></li> 
+        <li><a href="#">Wander.</a></li> 
+        <li><a href="#">Contron</a></li>
+        <li><a href="#">Panels</a></li>  
+      </ul> 
+  </div> 
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
